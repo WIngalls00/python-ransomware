@@ -81,8 +81,8 @@ e1.grid(row=0 , column=1)
 def show_entry_fields():
     global key2
     key2 = e1.get()
-Button(master, text='Proveri', command=show_entry_fields).grid(row=3, column=0, sticky=W, pady=4)
-Button(master,text='Nastavi', command = master.quit).grid(row=3,column=1,sticky=W,pady=4)
+Button(master, text='Check', command=show_entry_fields).grid(row=3, column=0, sticky=W, pady=4)
+Button(master,text='Decrypt', command = master.quit).grid(row=3,column=1,sticky=W,pady=4)
 mainloop()
 try:
     print(key2)
